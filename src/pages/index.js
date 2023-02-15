@@ -16,6 +16,10 @@ export default function Home({ data, countries }) {
           {countries.length}
         </p>
       </div>
+      <p className={styles.headersTitle}>
+        Countries with Lowest Confirmed Covid Cases
+      </p>
+      <div className={styles.countriesWrapper}></div>
     </div>
   );
 }
